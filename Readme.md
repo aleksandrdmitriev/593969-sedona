@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Дмитриев](https://up.htmlacademy.ru/htmlcss/20/user/593969).
-* Наставник: [Игорь Уваров](https://htmlacademy.ru/profile/id59956).
+* Наставник: [Игорь Уваров](https://up.htmlacademy.ru/htmlcss/20/user/59956).
 
 ---
 
