@@ -64,9 +64,21 @@
               </li>
             </ul>
         </fieldset>
-        <label for="filter-cost">Стоимость в сутки (Р):</label>
-        <span>от 0</span><span>до 3000</span>
-        <input class="visually-hidden filter-input filter-input-range" type="range" name="cost" id="filter-cost">
+        <fieldset>
+          <legend>Стоимость в сутки (Р):</legend>
+            <div>
+              <label for="filter-from">От</label>
+              <input class="filter-input" type="text" name="from" id="filter-from" placeholder="0">
+            </div>
+            <div>
+              <label for="filter-to">До</label>
+              <input class="filter-input" type="text" name="to" id="filter-to" placeholder="3000">
+            </div>
+            <div class="range">
+              <button class="range-button" type="button">От</button>
+              <button class="range-button" type="button">До</button>
+            </div>
+        </fieldset>
         <button class="button" type="submit">Показать</button>
       </form>
     </section>
