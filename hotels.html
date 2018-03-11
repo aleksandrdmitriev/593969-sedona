@@ -73,26 +73,36 @@
     <section class="result">
       <h2 class="visually-hidden">Результаты поиска</h2>
         <b>Найдено: 3</b>
-        <p>Cортировка:</p>
-        <ul class="result-sort">
-          <li>
-            <a class="result-sort-current" href="#" aria-label="Сортировка гостиниц по цене">по цене</a>
+      <form class="filter-form" action="https://echo.htmlacademy.ru" method="post"> 
+      <fieldset>
+        <legend>Сортировка:</legend>
+        <ul>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="sort1" value="cost" id="filter-cost" checked>
+            <label for="filter-cost">по цене</label>
           </li>
-          <li>
-            <a href="#" aria-label="Сортировка гостиниц по типу">по типу</a>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="sort1" value="type" id="filter-type">
+            <label for="filter-type">по типу</label>
           </li>
-          <li>
-            <a href="#" aria-label="Сортировка гостиниц по рейтингу">по рейтингу</a>
-          </li>
-        </ul>
-        <ul class="result-up-down">
-          <li>
-          <a href="#" aria-label="Сортировка по возрастанию">вверх</a>
-          </li>
-          <li class="result-up-down-current">
-            <a href="#" aria-label="Сортировка по убыванию">вниз</a>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="sort1" value="rating" id="filter-rating">
+            <label for="filter-rating">по рейтингу</label>
           </li>
         </ul>
+        <ul>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="sort2" value="up" id="filter-up">
+            <label for="filter-up">по возрастанию</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="sort2" value="down" id="filter-down" checked>
+            <label for="filter-down">по убыванию</label>
+          </li>
+        </ul>
+      </fieldset>
+      <button type="submit" class="visually-hidden filter-button button">Показать</button>
+      </form>
     </section> 
     <section class="hotels">
       <h2 class="visually-hidden">Гостиницы Седоны</h2>
