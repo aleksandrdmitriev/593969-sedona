@@ -42,13 +42,27 @@ a {
   color: #b2b2b2;
 }
 
-.container h1 {
+.site-navigation-current {
+  color: #766357;
+}
+
+.container h1,
+.hotel-description h3 {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
   text-align: center;
   background-color: #ffffff;
+}
+
+.hotel-description h3:hover,
+.hotel-description h3:focus {
+  color: #81b3d2;
+}
+
+.hotel-description h3:active {
+  color: #b2b2b2;
 }
 
 .container p {
@@ -144,17 +158,44 @@ a {
   background-color: #ebebeb;
 }
 
-.find-button {
+.find-button,
+.hotel-more {
   background-color: #81b3d2;
 }
 
 .find-button:hover,
-.find-button:focus {
+.find-button:focus,
+.hotel-more:hover,
+.hotel-more:focus {
   background-color: #669ec0;
 }
 
-.find-button:active {
+.find-button:active,
+.hotel-more:active {
   color: #88b6d1;
   background-color: #5496bd;
 }
 
+.hotel-more,
+.booking-button {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.footer-hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.main-footer b {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.hotel {
+  list-style: none;
+}
