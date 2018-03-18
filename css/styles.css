@@ -113,17 +113,14 @@ a {
 .feature-item-gray {
   display: flex;
   flex-grow: 1;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #eeeeee;
 }
 
 .feature-item-text {
   width: 400px;
   background-color: #81b3d2;
-}
-
-.feature-item-text-gray {
-  width: 400px;
-  text-align: center;
-  background-color: #eeeeee;
 }
 
 .feature-item h3 {
