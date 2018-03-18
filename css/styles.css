@@ -8,12 +8,16 @@ body {
   font-weight: 400;
   color: #000000;
   text-transform: uppercase;
-
   background-color: #ffffff;
 }
 
 a {
   text-decoration: none;
+}
+
+.page-wrapper {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .main-img {
@@ -30,16 +34,12 @@ a {
   background-color: #ffffff;
 }
 
-.main-navigation-wrapper {
-  width: 1200px;
-}
-
 .site-navigation {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-around;
-  max-height: 56px;
+  min-height: 56px;
   list-style: none;
   position: relative;
   z-index: 1;
@@ -96,7 +96,6 @@ a {
   padding: 0px;
   display:flex;
   flex-wrap: wrap;
-  width: 1200px;
   list-style: none;
 }
 
@@ -248,7 +247,6 @@ a {
 .main-footer {
   display: flex;
   justify-content: space-around;
-  width: 1200px;
 }
 
 .main-footer b {
