@@ -133,7 +133,7 @@ a {
   background-color: #81b3d2;
 }
 
-.features-list2 {
+.features-sublist {
   margin: 0px;
   padding: 0px;
   display: flex;
@@ -142,12 +142,12 @@ a {
   list-style: none;
 }
 
-.feature-item2 {
+.feature-sublist-item {
   flex-basis: 100%;
   flex-grow: 1;
 }
 
-.feature-item2 p {
+.feature-sublist-item p {
   color: #000000;
   background-color: #ffffff;
 }
