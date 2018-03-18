@@ -103,11 +103,8 @@ a {
   display: flex;
   flex-grow: 1;
   flex-basis: 100%;
-  text-align: center;
-}
-
-.wrapped {
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .feature-item-gray {
