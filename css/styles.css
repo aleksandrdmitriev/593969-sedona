@@ -250,5 +250,33 @@ a {
 }
 
 .hotel {
+  display: flex;
+  flex-direction: column;
   list-style: none;
+}
+
+.hotel-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sorting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.hotel-catalog {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-color: 1px solid red;
+}
+
+.filter-form {
+  display: flex;
+  justify-content: space-around;
+ 
 }
