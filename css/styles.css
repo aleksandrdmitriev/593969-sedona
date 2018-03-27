@@ -359,6 +359,12 @@ input[type="radio"].visually-hidden {
   background-color: #503e33;
 }
 
+.map-img {
+  margin-bottom: -125px;
+  position: relative;
+  z-index: -3;
+}
+
 .find-form p {
   font-weight: 700;
 }
@@ -407,11 +413,18 @@ input[type="radio"].visually-hidden {
 }
 
 .main-footer {
+  padding: 0px;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  background-color: #ffffff;
 }
 
 .main-footer b {
+  padding: 0px;
+  margin: 0px;
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
