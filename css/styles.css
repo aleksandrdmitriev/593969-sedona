@@ -285,8 +285,26 @@ input[type="radio"].visually-hidden {
   padding-bottom: 20px;
 }
 
-.feature-item-gray h3,
+.feature-item-gray {
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 38px;
+}
+
+.feature-item-gray h3 {
+  padding: 0;
+  margin: 0;
+  padding-top: 28px;
+  padding-bottom: 20px;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
 .feature-item-gray p {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 15px;
   color: #000000;
   background-color: #eeeeee;
 }
