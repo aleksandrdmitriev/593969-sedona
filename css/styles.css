@@ -49,8 +49,6 @@ input[type="radio"].visually-hidden {
 
 .main-navigation {
   position: relative;
-  margin: 0px;
-  padding: 0px;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -60,7 +58,6 @@ input[type="radio"].visually-hidden {
 
 .site-navigation {
   margin: 0;
-  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -137,14 +134,12 @@ input[type="radio"].visually-hidden {
 
 .main-description h1 {
   margin: 0;
-  padding: 0;
-  padding-bottom: 27px;
+  padding: 0px 0px 27px 0px;
 }
 
 .main-description p {
   margin: 0;
-  padding: 0;
-  padding-bottom: 10px;
+  padding: 0px 0px 10px 0px;
 }
 
 .main-description {
@@ -206,8 +201,6 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-item-text {
-  padding: 0;
-  margin: 0;
   padding-top: 26px;
   width: 400px;
   background-color: #81b3d2;
@@ -227,7 +220,6 @@ input[type="radio"].visually-hidden {
 }
 
 .features-sublist {
-  margin: 0px;
   padding: 0px;
   display: flex;
   flex-basis: 100%;
@@ -272,17 +264,14 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-sublist-item p {
-  padding: 0;
   margin: 0;
   color: #000000;
   background-color: #ffffff;
 }
 
 .feature-sublist-item h4 {
-  padding: 0;
   margin: 0;
-  padding-top: 28px;
-  padding-bottom: 20px;
+  padding: 28px 0px 20px 0px;
 }
 
 .feature-item-gray {
@@ -292,19 +281,16 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-item-gray h3 {
-  padding: 0;
   margin: 0;
-  padding-top: 28px;
-  padding-bottom: 20px;
+  padding: 28px 0px 20px 0px;
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
 }
 
 .feature-item-gray p {
-  padding: 0;
   margin: 0;
-  padding-bottom: 15px;
+  padding: 0px 0px 15px 0px;
   color: #000000;
   background-color: #eeeeee;
 }
@@ -315,10 +301,8 @@ input[type="radio"].visually-hidden {
 }
 
 .find h3 {
-  padding: 0px;
   margin: 0px;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  padding: 50px 0px 25px 0px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -328,9 +312,8 @@ input[type="radio"].visually-hidden {
 }
 
 .find p {
-  padding: 0px;
   margin: 0px;
-  padding-bottom: 44px;
+  padding: 0px 0px 44px 0px;
 }
 
 .button {
@@ -339,12 +322,10 @@ input[type="radio"].visually-hidden {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-
   text-align: center;
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
-
   background-color: #766357;
   border: none;
 }
@@ -406,10 +387,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-footer {
-  padding: 0px;
-  margin: 0px;
-  padding-top: 34px;
-  padding-bottom: 40px;
+  padding: 34px 0px 40px 0px;
   display: flex;
   justify-content: space-around;
   align-items: baseline;
@@ -417,17 +395,13 @@ input[type="radio"].visually-hidden {
 }
 
 .main-footer b {
-  padding: 0px;
-  margin: 0px;
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
 }
 
 .footer-hashtag {
-  padding: 0px;
-  margin: 0px;
-  margin-left: 30px;
+  margin: 0px 0px 0px 30px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -435,9 +409,7 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-social {
-  padding: 0px;
-  margin: 0px;
-  margin-left: 60px;
+  margin: 0px 0px 0px 60px;
 }
 
 .footer-social ul {
@@ -473,9 +445,7 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-copyright {
-  padding: 0px;
-  margin: 0px;
-  margin-left: 27px;
+  margin: 0px 0px 0px 27px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -515,7 +485,6 @@ input[type="radio"].visually-hidden {
 }
 
 .hotel-catalog {
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -525,5 +494,4 @@ input[type="radio"].visually-hidden {
 .filter-form {
   display: flex;
   justify-content: space-around;
-
 }
