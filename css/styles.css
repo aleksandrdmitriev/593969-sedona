@@ -582,6 +582,46 @@ input[type="radio"].visually-hidden {
   background-color: #5496bd;
 }
 
+.filter {
+  display: flex;
+  /* justify-content: space-between; */
+  background-image: url(../img/hotels-filter-bg-1200.jpg);
+  margin-top: -56px;
+  padding-top: 56px;
+  /* padding-left: 73px;
+  padding-right: 73px; */
+}
+
+.filter-infrastructure,
+.filter-housing {
+  width: 240px;
+}
+
+.filter-cost {
+  /* width: 330px; */
+  margin-left: auto;
+}
+
+
+.filter-show {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.filter-show:hover {
+  color: #000000;
+  background: #ffffff;
+}
+
 .hotel-more,
 .booking-button {
   font-size: 14px;
