@@ -93,33 +93,34 @@
         </section>
         <section class="result">
           <h2 class="visually-hidden">Результаты поиска</h2>
-            <b>Найдено: 3</b>
+            <p class="result-found">Найдено: 3</p>
+            <p class="result-title">Сортировка:</p>
           <form class="filter-result" action="https://echo.htmlacademy.ru" method="post"> 
           <fieldset>
-            <legend>Сортировка:</legend>
+            <legend class="visually-hidden">Сортировка:</legend>
             <div class="sorting">
               <ul>
-                <li class="filter-option">
+                <li class="filter-result-current">
                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="sort1" value="cost" id="filter-cost" checked>
                   <label for="filter-cost">по цене</label>
                 </li>
-                <li class="filter-option">
+                <li class="filter-result-option">
                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="sort1" value="type" id="filter-type">
                   <label for="filter-type">по типу</label>
                 </li>
-                <li class="filter-option">
+                <li class="filter-result-option">
                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="sort1" value="rating" id="filter-rating">
                   <label for="filter-rating">по рейтингу</label>
                 </li>
               </ul>
-              <ul>
-                <li class="filter-option">
+              <ul class="filter-up-down">
+                <li class="filter-result-up">
                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="sort2" value="up" id="filter-up">
-                  <label for="filter-up">по возрастанию</label>
+                  <label for="filter-up"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="10"><path fill="#cacaca" d="M5.5 0L0 10h11z"/></svg></label>
                 </li>
-                <li class="filter-option">
+                <li class="filter-result-down">
                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="sort2" value="down" id="filter-down" checked>
-                  <label for="filter-down">по убыванию</label>
+                  <label for="filter-down"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="10"><path fill="#81b3d2" d="M5.5 10L0 0h11"/></svg></label>
                 </li>
               </ul>
             </div>

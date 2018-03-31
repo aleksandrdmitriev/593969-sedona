@@ -167,6 +167,21 @@ input[type="radio"].visually-hidden {
   color: #b2b2b2;
 }
 
+.result-found {
+  display: inline-block;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+} 
+
+.result-title {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  padding-left: 45px;
+} 
+
 .container p {
   font-size: 14px;
   line-height: 26px;
@@ -175,6 +190,20 @@ input[type="radio"].visually-hidden {
   text-align: center;
   background-color: #ffffff;
 }
+
+.container .result-found {
+  display: inline-block;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+} 
+
+.container .result-title {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 18px;
+  /* font-weight: 400; */
+} 
 
 .features-list {
   margin: 0px;
@@ -745,10 +774,6 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 }
 
-/* .range-toggle:hover {
-  background: #1c4f80;
-} */
-
 .range-toggle-min {
   left: 0;
 }
@@ -774,6 +799,90 @@ input[type="radio"].visually-hidden {
 .filter-show:hover {
   color: #000000;
   background: #ffffff;
+}
+
+.result {
+  display: flex;
+  align-items: baseline;
+  padding: 9px 73px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.filter-result-current,
+.filter-result-option {
+  display: inline-block;
+}
+
+.filter-result-up,
+.filter-result-down {
+  display: inline-block;
+  padding-left: 9px;
+}
+
+.filter-result-option label {
+  position: relative;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #b2b2b2;
+  border-bottom: 1px dashed #81b3d2;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+.filter-result-current label {
+  position: relative;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #81b3d2;
+  text-transform: uppercase;
+  margin-left: 35px;
+}
+
+.filter-result-option label:hover,
+.filter-result-option label:focus {
+  color: #81b3d2;
+}
+
+.filter-result-option label:active {
+  color: #000000;
+  border-bottom: none;
+}
+
+.filter-result-up label:hover path,
+.filter-result-up label:focus path,
+.filter-result-down label:hover path,
+.filter-result-dovn label:focus path {
+  fill: #231f20;
+}
+
+.filter-up-down {
+  margin-left: auto;
+}
+
+.filter-result-up label:active path,
+.filter-result-down label:active path {
+  fill: #81b3d2;
+}
+
+.sorting ul {
+  margin: 0px;
+  padding: 0px;
+  min-width: 30px;
+  list-style-type: none;
+}
+
+.filter-result {
+  display: inline-block;
+  width: 810px;
+  margin-left: auto;
+}
+
+.filter-result fieldset {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 }
 
 .hotel-more,
