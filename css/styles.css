@@ -62,7 +62,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 56px;
+  height: 56px;
   list-style: none;
   background-color: #ffffff;
 }
