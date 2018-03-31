@@ -8,7 +8,7 @@ body {
   font-weight: 400;
   color: #000000;
   text-transform: uppercase;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 
 a {
@@ -136,7 +136,7 @@ input[type="radio"].visually-hidden {
 
 .main-description h1 {
   margin: 0;
-  padding: 0px 0px 27px 0px;
+  padding: 0px 0px 31px 0px;
 }
 
 .main-description p {
@@ -190,7 +190,7 @@ input[type="radio"].visually-hidden {
 
 .container p {
   font-size: 14px;
-  line-height: 26px;
+  line-height: 21px;
   font-weight: 400;
   color: #333333;
   text-align: center;
@@ -249,6 +249,7 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-item p {
+  padding: 4px 0px 3px 0px; 
   color: #ffffff;
   background-color: #81b3d2;
 }
@@ -264,37 +265,38 @@ input[type="radio"].visually-hidden {
 .feature-sublist-item::before {
   content: "";
   position: absolute;
-  width: 80px;
-  height: 80px;
-  top: 57px;
+  width: 75px;
+  height: 76px;
+  top: 56px;
   left: 50%;
-  margin-left: -40px;
+  margin-left: -38px;
   background-image: url("../img/icon-housing.svg");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center bottom;
 }
 
 .feature-sublist-item:nth-child(2)::before {
   background-image: url("../img/icon-food.svg");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center bottom;
 }
 
 .feature-sublist-item:nth-child(3)::before {
   background-image: url("../img/icon-souvenirs.svg");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center bottom;
 }
 
 .feature-sublist-item {
   flex-basis: 100%;
   flex-grow: 1;
   position: relative;
-  padding-top: 133px;
-  padding-bottom: 75px;
+  padding-top: 134px;
+  padding-bottom: 79px;
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
+  background-color: #ffffff;
 }
 
 .feature-sublist-item p {
@@ -316,7 +318,7 @@ input[type="radio"].visually-hidden {
 
 .feature-item-gray h3 {
   margin: 0;
-  padding: 28px 0px 20px 0px;
+  padding: 28px 0px 23px 0px;
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
@@ -324,7 +326,7 @@ input[type="radio"].visually-hidden {
 
 .feature-item-gray p {
   margin: 0;
-  padding: 0px 0px 15px 0px;
+  padding: 0px 0px 22px 0px;
   color: #000000;
   background-color: #eeeeee;
 }
@@ -333,11 +335,13 @@ input[type="radio"].visually-hidden {
   position: relative;
   display: flex;
   flex-direction: column;
+  background-color: #ffffff;
+ 
 }
 
 .find h3 {
   margin: 0px;
-  padding: 50px 0px 25px 0px;
+  padding: 48px 0px 25px 0px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -347,8 +351,9 @@ input[type="radio"].visually-hidden {
 }
 
 .find p {
+  line-height: 24px;
   margin: 0px;
-  padding: 0px 0px 44px 0px;
+  padding: 0px 0px 46px 0px;
 }
 
 .button {
@@ -916,6 +921,7 @@ input[type="radio"].visually-hidden {
 
 .footer-hashtag {
   margin: 0px;
+  padding-right: 3px;
   display: inline-block;
   width: 33%;
   vertical-align: middle;
@@ -948,8 +954,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 47px;
+  height: 47px;
   background-color: #81b3d2;
 }
 
