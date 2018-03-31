@@ -347,7 +347,6 @@ input[type="radio"].visually-hidden {
 }
 
 .button {
-  min-width: 568px;
   margin: auto;
   padding: 30px 140px;
   font-size: 21px;
@@ -372,6 +371,7 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-close-open {
+  min-width: 568px;
   position: relative;
 }
 
@@ -589,10 +589,9 @@ input[type="radio"].visually-hidden {
   background-color: #81b3d2;
 }
 
-.find-button,
-.hotel-more {
-  min-width: 458px;
+.find-button {
   background-color: #81b3d2;
+  min-width: 458px;
   margin-top: 54px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -887,9 +886,15 @@ input[type="radio"].visually-hidden {
 
 .hotel-more,
 .booking-button {
+  padding: 5px 15px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
+}
+.hotel-more {
+  display: inline-block;
+  background-color: #81b3d2;
+  margin: 0px;
 }
 
 .main-footer {
@@ -987,6 +992,7 @@ input[type="radio"].visually-hidden {
  }
 
 .hotel {
+  padding: 0px;
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -994,7 +1000,21 @@ input[type="radio"].visually-hidden {
 
 .hotel-description {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 73px;
+}
+
+.hotel-description-text {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+
+.hotel-rating {
+  margin-left: auto;
 }
 
 .sorting {
