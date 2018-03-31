@@ -19,15 +19,12 @@ a {
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -203,7 +200,6 @@ input[type="radio"].visually-hidden {
   display: inline-block;
   font-size: 12px;
   line-height: 18px;
-  /* font-weight: 400; */
 } 
 
 .features-list {
@@ -666,7 +662,6 @@ input[type="radio"].visually-hidden {
   width: 27px;
   height: 23px;
   left: -40px;
-  /* bottom: 1px; */
   background: url(../img/icon-checkbox-off.svg);
   background-repeat: no-repeat;
   cursor: pointer;
@@ -976,7 +971,6 @@ input[type="radio"].visually-hidden {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-
 }
 
 .copy-logo {
@@ -1064,7 +1058,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-color: 1px solid red;
 }
 
 .filter-form {
