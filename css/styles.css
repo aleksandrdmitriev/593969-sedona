@@ -37,6 +37,7 @@ input[type="radio"].visually-hidden {
   width: 1200px;
   margin: 0 auto;
   box-shadow: 0px 0 30px 5px #dbdbdb;
+  background-color: #ffffff;
 }
 
 .main-header-logo {
@@ -675,6 +676,7 @@ input[type="radio"].visually-hidden {
   width: 27px;
   height: 23px;
   left: -40px;
+  top: -2px;
   background: url(../img/icon-checkbox-off.svg);
   background-repeat: no-repeat;
   cursor: pointer;
@@ -898,7 +900,7 @@ input[type="radio"].visually-hidden {
 
 .hotel-more,
 .booking-button {
-  padding: 3px 15px;
+  padding: 3px 16px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
@@ -921,9 +923,9 @@ input[type="radio"].visually-hidden {
 
 .footer-hashtag {
   margin: 0px;
-  padding-right: 3px;
+  padding-left: 5px;
   display: inline-block;
-  width: 33%;
+  width: 390px;
   vertical-align: middle;
   text-align: center;
   font-size: 21px;
@@ -934,8 +936,9 @@ input[type="radio"].visually-hidden {
 
 .footer-social {
   margin: 0px;
+  padding: 2px 0px 0px 5px;
   display: inline-block;
-  width: 33%;
+  width: 390px;
   vertical-align: middle;
   text-align: center;
 }
@@ -944,7 +947,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 154px;
+  width: 150px;
   margin: 0 auto;
   padding: 0;
   list-style: none;
@@ -954,8 +957,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 47px;
-  height: 47px;
+  width: 46px;
+  height: 48px;
   background-color: #81b3d2;
 }
 
@@ -974,8 +977,9 @@ input[type="radio"].visually-hidden {
 
 .footer-copyright {
   margin: 0px;
+  padding-left: 8px;
   display: inline-block;
-  width: 33%;
+  width: 390px;
   vertical-align: middle;
   text-align: center;
 }
@@ -987,9 +991,13 @@ input[type="radio"].visually-hidden {
   text-align: center;
 }
 
+.footer-copyright a{
+  padding-top: 2px;
+}
+
 .copy-logo {
   width: 115px;
-  height: 41px;
+  height: 42px;
   margin-left: 5px;
 }
 
@@ -1019,6 +1027,7 @@ input[type="radio"].visually-hidden {
 }
 
 .hotel-description-type {
+  margin-top: -7px;
   display: flex;
 }
 
@@ -1037,7 +1046,7 @@ input[type="radio"].visually-hidden {
 }
 
 .hotel-description-text h3 {
-  margin: 0px;
+  margin: -4px 0px 0px 0px;
 }
 
 .hotels-buttons {
@@ -1045,7 +1054,7 @@ input[type="radio"].visually-hidden {
 }
 
 .rating-text {
-  padding: 3px 15px;
+  padding: 3px 14px;
   background-color: #f2f2f2;
 }
 
