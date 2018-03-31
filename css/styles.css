@@ -387,6 +387,9 @@ input[type="radio"].visually-hidden {
   color: #000000;
   background-color: #ffffff;
 }
+.modal-show {
+  display: none;
+}
 
 .modal-find {
   top: 100%;
