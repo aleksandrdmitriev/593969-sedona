@@ -349,7 +349,7 @@ input[type="radio"].visually-hidden {
 
 .button {
   margin: auto;
-  padding: 30px 140px;
+  padding: 30px 120px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -372,7 +372,7 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-close-open {
-  min-width: 568px;
+  width: 568px;
   position: relative;
 }
 
