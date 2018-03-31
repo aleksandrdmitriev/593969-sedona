@@ -411,41 +411,59 @@ input[type="radio"].visually-hidden {
 }
 
 .find-form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
   padding: 0;
   margin: 0;
   font-weight: 700;
 }
 
 .find-item {
-  padding-bottom: 29px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 28px;
 }
 
 .find-item label {
-  display: inline-block;
-  width: 24%;
+  /* display: inline-block; */
+  /* width: 24%; */
+  width: 112px;
 }
 
 .find-item-adult {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  /* display: inline-block;
   width: 50%;
-  float: left;
+  float: left; */
+  width: 228px;
 }
 
 .find-item-child {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  /* display: inline-block;
   width: 50%;
-  float: right;
+  float: right; */
 }
 
 .find-item-adult label {
-  display: inline-block;
-  padding-top: 7px;
+  width: 114px;
+  align-items: center;
+  /* display: inline-block; */
+  /* padding-top: 7px; */
 }
 
 .find-item-child label {
-  display: inline-block;
-  padding-top: 7px;
-  padding-left: 50px;  
+  align-items: center;
+  width: 68px;
+  /* display: inline-block; */
+  /* padding-top: 7px;
+  padding-left: 50px;   */
 }
 
 .find-form input {
@@ -457,8 +475,8 @@ input[type="radio"].visually-hidden {
 .find-departure-wrap input,
 .find-arrival-wrap input {
   box-sizing: border-box;
-  width: 100%;
-  padding: 9px 10px;
+  width: 345px;
+  padding: 9px 12px;
 }
 
 .find-adult-wrap input,
@@ -466,7 +484,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   min-height: 38px;
   box-sizing: border-box;
-  width: 117px;
+  width: 113px;
   text-align: center;
 }
 
@@ -480,18 +498,20 @@ input[type="radio"].visually-hidden {
 
 .find-departure-wrap,
 .find-arrival-wrap {
-  overflow-wrap: normal;
+  /* overflow-wrap: normal;
   display: inline-block;
-  width: 75%;
+  width: 75%; */
   position: relative;
+  margin-left: auto;
+
 }
 
 .find-adult-wrap,
 .find-child-wrap {
-  overflow-wrap: normal;
-  display: inline-block;
+  /* overflow-wrap: normal;
+  display: inline-block; */
   position: relative;
-  float: right;
+  /* float: right; */
 }
 
 .find-form input:hover,
