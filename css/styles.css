@@ -455,8 +455,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   align-items: center;
   width: 232px;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .find-item-child {
@@ -464,8 +462,6 @@ input[type="radio"].visually-hidden {
   align-items: center;
   justify-content: space-between;
   margin-left: auto;
-  padding-right: 2px;
-  padding-top: 2px;
 }
 
 .find-item-adult label {
@@ -566,11 +562,15 @@ input[type="radio"].visually-hidden {
   height: 3px;
   left: 13px;
   background-color: #a9a9a9;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .find-child-plus::after,
 .find-adult-plus::after {
   transform: rotate(-90deg);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .find-child-minus,
@@ -595,6 +595,8 @@ input[type="radio"].visually-hidden {
   height: 3px;
   left: 13px;
   background-color: #a9a9a9;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .find-arrival-calendar:hover path,
