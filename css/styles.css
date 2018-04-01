@@ -184,7 +184,7 @@ input[type="radio"].visually-hidden {
 }
 
 .hotel-description h3>a:active {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .result-found {
@@ -404,7 +404,7 @@ input[type="radio"].visually-hidden {
 }
 
 .button:active {
-  color: #857871;
+  color: rgba(0, 0, 0, 0.3);
   background-color: #503e33;
   cursor: pointer;
 }
