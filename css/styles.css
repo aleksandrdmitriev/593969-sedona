@@ -569,8 +569,7 @@ input[type="radio"].visually-hidden {
 .find-child-plus::after,
 .find-adult-plus::after {
   top: 50%;
-  transform: translateY(-50%);
-  transform: rotate(-90deg);
+  transform: translateY(-50%) rotate(-90deg);
 }
 
 .find-child-minus,
