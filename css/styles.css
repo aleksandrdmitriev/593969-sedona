@@ -174,13 +174,17 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 }
 
-.hotel-description h3:hover,
-.hotel-description h3:focus {
+.hotel-description h3>a {
+  color: #000000;
+}
+
+.hotel-description h3>a:hover,
+.hotel-description h3>a:focus {
   color: #81b3d2;
 }
 
-.hotel-description h3:active {
-  color: #b2b2b2;
+.hotel-description h3>a:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .result-found {
@@ -809,6 +813,11 @@ input[type="radio"].visually-hidden {
   border-radius: 50%;
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
+}
+
+.range-toggle:hover,
+.range-toggle:focus{
+  transform: scale(1.1);
 }
 
 .range-toggle-min {
