@@ -267,7 +267,6 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-item p {
-  /* padding: 4px 0px 3px 0px;  */
   color: #ffffff;
   background-color: #81b3d2;
 }
@@ -357,7 +356,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
- 
 }
 
 .find h3 {
@@ -446,17 +444,12 @@ input[type="radio"].visually-hidden {
 }
 
 .find-item label {
-  /* display: inline-block; */
-  /* width: 24%; */
   width: 112px;
 }
 
 .find-item-adult {
   display: flex;
   align-items: center;
-  /* display: inline-block;
-  width: 50%;
-  float: left; */
   width: 232px;
   padding-right: 2px;
   padding-top: 2px;
@@ -469,25 +462,17 @@ input[type="radio"].visually-hidden {
   margin-left: auto;
   padding-right: 2px;
   padding-top: 2px;
-  /* display: inline-block;
-  width: 50%;
-  float: right; */
 }
 
 .find-item-adult label {
   width: 113px;
   align-items: center;
-  /* display: inline-block; */
-  /* padding-top: 7px; */
 }
 
 .find-item-child label {
   align-items: center;
   width: 68px;
   padding-left:3px;
-  /* display: inline-block; */
-  /* padding-top: 7px;
-  padding-left: 50px;   */
 }
 
 .find-form input {
@@ -522,9 +507,6 @@ input[type="radio"].visually-hidden {
 
 .find-departure-wrap,
 .find-arrival-wrap {
-  /* overflow-wrap: normal;
-  display: inline-block;
-  width: 75%; */
   position: relative;
   margin-left: auto;
 
@@ -533,10 +515,7 @@ input[type="radio"].visually-hidden {
 .find-adult-wrap,
 .find-child-wrap {
   width: 114px;
-  /* overflow-wrap: normal;
-  display: inline-block; */
   position: relative;
-  /* float: right; */
 }
 
 .find-form input:hover,
