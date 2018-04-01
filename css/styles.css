@@ -455,8 +455,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   align-items: center;
   width: 232px;
-  padding-right: 2px;
-  padding-top: 2px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .find-item-child {
@@ -475,7 +475,7 @@ input[type="radio"].visually-hidden {
 
 .find-item-child label {
   align-items: center;
-  width: 68px;
+  width: 65px;
   padding-left:3px;
 }
 
@@ -864,7 +864,7 @@ input[type="radio"].visually-hidden {
   color: #b2b2b2;
   border-bottom: 1px dashed #81b3d2;
   text-transform: uppercase;
-  margin-left: 30px;
+  margin-left: 28px;
 }
 
 .filter-result-current label {
@@ -1093,6 +1093,9 @@ input[type="radio"].visually-hidden {
 
 .rating-star {
   display: inline-block;
+}
+
+.rating-star img {
   margin-left: 2px;
 }
 
