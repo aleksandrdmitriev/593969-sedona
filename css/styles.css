@@ -944,8 +944,9 @@ input[type="radio"].visually-hidden {
 }
 
 .main-footer {
+  postion: relative;
   padding: 34px 0px 40px 0px;
-  background-color: rgba(249, 251, 246, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .main-footer b {
