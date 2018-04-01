@@ -137,13 +137,15 @@ input[type="radio"].visually-hidden {
 }
 
 .main-description h1 {
-  margin: 0;
-  padding: 0px 0px 31px 0px;
+  margin: 0 auto;
+  padding: 0px 0px 30px 0px;
+  width: 450px;
+  text-align: center;
 }
 
 .main-description p {
   margin: 0;
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 11px 0px;
 }
 
 .main-description {
@@ -237,9 +239,21 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-item-text {
-  padding-top: 26px;
+  padding-top: 47px;
   width: 400px;
   background-color: #81b3d2;
+}
+
+.feature-item-text p{
+  margin: 0 auto;
+  padding-bottom: 20px;
+  width: 302px;
+}
+
+.feature-item-text  h3 {
+  padding-bottom: 24px;
+  margin: 0 auto;
+  width: 151px;
 }
 
 .feature-item h3 {
@@ -251,7 +265,7 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-item p {
-  padding: 4px 0px 3px 0px; 
+  /* padding: 4px 0px 3px 0px;  */
   color: #ffffff;
   background-color: #81b3d2;
 }
@@ -294,7 +308,7 @@ input[type="radio"].visually-hidden {
   flex-grow: 1;
   position: relative;
   padding-top: 134px;
-  padding-bottom: 79px;
+  padding-bottom: 82px;
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
@@ -302,24 +316,26 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-sublist-item p {
-  margin: 0;
+  margin: 0 auto;
+  width: 300px;
   color: #000000;
   background-color: #ffffff;
 }
 
 .feature-sublist-item h4 {
   margin: 0;
-  padding: 28px 0px 20px 0px;
+  padding: 28px 0px 24px 0px;
 }
 
 .feature-item-gray {
   width: 400px;
   padding-top: 20px;
-  padding-bottom: 38px;
+  padding-bottom: 36px;
 }
 
 .feature-item-gray h3 {
-  margin: 0;
+  margin: 0 auto;
+  width: 120px;
   padding: 28px 0px 23px 0px;
   font-size: 21px;
   line-height: 21px;
@@ -327,7 +343,8 @@ input[type="radio"].visually-hidden {
 }
 
 .feature-item-gray p {
-  margin: 0;
+  margin: 0 auto;
+  width: 265px;
   padding: 0px 0px 22px 0px;
   color: #000000;
   background-color: #eeeeee;
@@ -343,7 +360,7 @@ input[type="radio"].visually-hidden {
 
 .find h3 {
   margin: 0px;
-  padding: 48px 0px 25px 0px;
+  padding: 50px 0px 25px 0px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -354,7 +371,7 @@ input[type="radio"].visually-hidden {
 
 .find p {
   line-height: 24px;
-  margin: 0px;
+  margin: 0;
   padding: 0px 0px 46px 0px;
 }
 
