@@ -647,7 +647,7 @@ input[type="radio"].visually-hidden {
 .filter {
   display: flex;
   background-image: url(../img/hotels-filter-bg-1200.jpg);
-  background: #567a9e;
+  background-color: #567a9e;
   margin-top: -56px;
   padding-top: 84px;
   padding-left: 71px;
@@ -1071,6 +1071,7 @@ input[type="radio"].visually-hidden {
 
 .hotel-description-text h3 {
   margin: -4px 0px 0px 0px;
+  letter-spacing: 0.1;
 }
 
 .hotels-buttons {
