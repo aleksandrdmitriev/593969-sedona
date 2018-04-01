@@ -480,6 +480,7 @@ input[type="radio"].visually-hidden {
 .find-form input {
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0px 12px;
   min-height: 38px;
   line-height: 38px;
   font: inherit;
@@ -491,13 +492,10 @@ input[type="radio"].visually-hidden {
 .find-arrival-wrap input {
   box-sizing: border-box;
   width: 345px;
-  padding: 9px 12px;
 }
 
 .find-adult-wrap input,
 .find-child-wrap input {
-  padding: 0;
-  min-height: 38px;
   box-sizing: border-box;
   width: 114px;
   text-align: center;
