@@ -438,7 +438,9 @@ input[type="radio"].visually-hidden {
   /* display: inline-block;
   width: 50%;
   float: left; */
-  width: 228px;
+  width: 232px;
+  padding-right: 2px;
+  padding-top: 2px;
 }
 
 .find-item-child {
@@ -446,13 +448,15 @@ input[type="radio"].visually-hidden {
   align-items: center;
   justify-content: space-between;
   margin-left: auto;
+  padding-right: 2px;
+  padding-top: 2px;
   /* display: inline-block;
   width: 50%;
   float: right; */
 }
 
 .find-item-adult label {
-  width: 114px;
+  width: 113px;
   align-items: center;
   /* display: inline-block; */
   /* padding-top: 7px; */
@@ -461,6 +465,7 @@ input[type="radio"].visually-hidden {
 .find-item-child label {
   align-items: center;
   width: 68px;
+  padding-left:3px;
   /* display: inline-block; */
   /* padding-top: 7px;
   padding-left: 50px;   */
@@ -484,7 +489,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   min-height: 38px;
   box-sizing: border-box;
-  width: 113px;
+  width: 114px;
   text-align: center;
 }
 
@@ -508,6 +513,7 @@ input[type="radio"].visually-hidden {
 
 .find-adult-wrap,
 .find-child-wrap {
+  width: 114px;
   /* overflow-wrap: normal;
   display: inline-block; */
   position: relative;
@@ -627,7 +633,7 @@ input[type="radio"].visually-hidden {
 .find-button {
   background-color: #81b3d2;
   min-width: 458px;
-  margin-top: 54px;
+  margin-top: 56px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
