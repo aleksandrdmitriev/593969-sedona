@@ -606,27 +606,18 @@ input[type="radio"].visually-hidden {
   fill: #81b3d2;
 }
 
-.find-child-minus:hover::before,
-.find-child-minus:focus::before,
-.find-adult-minus:hover::before,
-.find-adult-minus:focus::before,
-.find-child-plus:hover::before,
-.find-child-plus:focus::before,
-.find-child-plus:hover::after,
-.find-child-plus:focus::after,
-.find-adult-plus:hover::before,
-.find-adult-plus:focus::before,
-.find-adult-plus:hover::after,
-.find-adult-plus:focus::after {
+.button-minus:hover::before,
+.button-minus:focus::before,
+.button-plus:hover::before,
+.button-plus:focus::before,
+.button-plus:hover::after,
+.button-plus:focus::after {
   background-color: #000000;
 }
 
-.find-child-minus:active::before,
-.find-adult-minus:active::before,
-.find-child-plus:active::before,
-.find-child-plus:active::after,
-.find-adult-plus:active::before,
-.find-adult-plus:active::after {
+.button-minus:active::before,
+.button-plus:active::before,
+.button-plus:active::after {
   background-color: #81b3d2;
 }
 
