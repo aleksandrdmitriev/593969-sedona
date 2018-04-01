@@ -40,6 +40,11 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 }
 
+.main-header {
+  position: relative;
+  z-index: 1;
+}
+
 .main-header-logo {
   position: absolute;
   top: 0px;
