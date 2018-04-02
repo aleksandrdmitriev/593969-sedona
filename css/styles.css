@@ -301,7 +301,6 @@ input[type="radio"].visually-hidden {
   width: 302px;
 }
 
-
 .feature-item-text  h3 {
   padding-bottom: 25px;
   margin: 0 auto;
@@ -400,7 +399,6 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
 }
 
-
 .feature-item-gray p,
 .feature-item-gray span {
   margin: 0 auto;
@@ -413,7 +411,6 @@ input[type="radio"].visually-hidden {
 .feature-item-gray span {
   display: inline-block;
 }
-
 
 .find {
   position: relative;
@@ -589,7 +586,7 @@ input[type="radio"].visually-hidden {
 .find-child-wrap input {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 114px;
+  width: 38px;
   text-align: center;
 }
 
@@ -634,8 +631,8 @@ input[type="radio"].visually-hidden {
 
 .find-adult-wrap,
 .find-child-wrap {
+  display: flex;
   width: 114px;
-  position: relative;
 }
 
 .find-form input:hover,
@@ -659,9 +656,7 @@ input[type="radio"].visually-hidden {
 
 .button-plus {
   padding: 0px;
-  position: absolute;
-  top: 0px;
-  right: 0;
+  position: relative;
   width: 38px;
   height: 38px;
   font-size: 0;
@@ -691,9 +686,7 @@ input[type="radio"].visually-hidden {
 
 .button-minus {
   padding: 0px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  position: relative;
   width: 38px;
   height: 38px;
   font-size: 0;
