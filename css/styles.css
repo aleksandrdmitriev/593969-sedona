@@ -190,6 +190,7 @@ input[type="radio"].visually-hidden {
 
 .result-found {
   display: inline-block;
+  vertical-align: middle;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -197,6 +198,7 @@ input[type="radio"].visually-hidden {
 
 .result-title {
   display: inline-block;
+  vertical-align: middle;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -213,14 +215,12 @@ input[type="radio"].visually-hidden {
 }
 
 .container .result-found {
-  display: inline-block;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
 } 
 
 .container .result-title {
-  display: inline-block;
   font-size: 12px;
   line-height: 18px;
 } 
@@ -283,6 +283,7 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   text-align: center;
   display: inline-block;
+  vertical-align: middle;
   margin: 0 auto;
   padding-bottom: 20px;
   width: 302px;
@@ -397,6 +398,7 @@ input[type="radio"].visually-hidden {
 
 .feature-item-gray span {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .find {
@@ -856,6 +858,7 @@ input[type="radio"].visually-hidden {
 
 .price-controls label {
   display: inline-block;
+  vertical-align: middle;
   font-size: 14px;
   line-height: 32px;
   vertical-align: top;
@@ -960,11 +963,13 @@ input[type="radio"].visually-hidden {
 .filter-result-current,
 .filter-result-option {
   display: inline-block;
+  vertical-align: baseline;
 }
 
 .filter-result-up,
 .filter-result-down {
   display: inline-block;
+  vertical-align: baseline;
   padding-left: 9px;
 }
 
@@ -1254,6 +1259,7 @@ input[type="radio"].visually-hidden {
 
 .rating-star {
   display: inline-block;
+  vertical-align: baseline;
 }
 
 .rating-star img {
