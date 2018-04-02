@@ -283,14 +283,27 @@ input[type="radio"].visually-hidden {
   background-color: #81b3d2;
 }
 
-.feature-item-text p{
+.feature-item-text p {
   margin: 0 auto;
   padding-bottom: 20px;
   width: 302px;
 }
 
+.feature-item-text span {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  width: 302px;
+}
+
+
 .feature-item-text  h3 {
-  padding-bottom: 24px;
+  padding-bottom: 25px;
   margin: 0 auto;
   width: 151px;
 }
@@ -387,13 +400,20 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
 }
 
-.feature-item-gray p {
+
+.feature-item-gray p,
+.feature-item-gray span {
   margin: 0 auto;
   width: 265px;
   padding: 0px 0px 22px 0px;
   color: #000000;
   background-color: #eeeeee;
 }
+
+.feature-item-gray span {
+  display: inline-block;
+}
+
 
 .find {
   position: relative;
