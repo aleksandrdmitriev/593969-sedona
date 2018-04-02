@@ -465,6 +465,24 @@ input[type="radio"].visually-hidden {
   margin-bottom: -125px;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateX(-2000px);
+  }
+
+  70% {
+    transform: translateX(30px);
+  }
+
+  90% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .modal {
   position: absolute;
   color: #000000;
@@ -472,6 +490,7 @@ input[type="radio"].visually-hidden {
 }
 .modal-show {
   display: none;
+
 }
 
 .modal-find {
@@ -480,6 +499,7 @@ input[type="radio"].visually-hidden {
   margin-left: -285px;
   max-width: 458px;
   padding: 55px 56px;
+  animation: bounce 0.6s;
 }
 
 .find-form{
