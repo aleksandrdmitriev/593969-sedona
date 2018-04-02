@@ -968,7 +968,7 @@ input[type="radio"].visually-hidden {
   padding-left: 9px;
 }
 
-.filter-result-option label {
+.filter-result-option a {
   position: relative;
   font-size: 12px;
   line-height: 18px;
@@ -979,7 +979,7 @@ input[type="radio"].visually-hidden {
   margin-left: 28px;
 }
 
-.filter-result-current label {
+.filter-result-current a {
   position: relative;
   font-size: 12px;
   line-height: 18px;
@@ -989,20 +989,20 @@ input[type="radio"].visually-hidden {
   margin-left: 35px;
 }
 
-.filter-result-option label:hover,
-.filter-result-option label:focus {
+.filter-result-option a:hover,
+.filter-result-option a:focus {
   color: #81b3d2;
 }
 
-.filter-result-option label:active {
+.filter-result-option a:active {
   color: #000000;
   border-bottom: none;
 }
 
-.filter-result-up label:hover path,
-.filter-result-up label:focus path,
-.filter-result-down label:hover path,
-.filter-result-dovn label:focus path {
+.filter-result-up a:hover path,
+.filter-result-up a:focus path,
+.filter-result-down a:hover path,
+.filter-result-dovn a:focus path {
   fill: #231f20;
 }
 
@@ -1010,12 +1010,12 @@ input[type="radio"].visually-hidden {
   margin-left: auto;
 }
 
-.filter-result-up label:active path,
-.filter-result-down label:active path {
+.filter-result-up a:active path,
+.filter-result-down a:active path {
   fill: #81b3d2;
 }
 
-.sorting ul {
+.filter-result ul {
   margin: 0px;
   padding: 0px;
   min-width: 30px;
@@ -1023,15 +1023,17 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-result {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 810px;
   margin-left: auto;
-}
-
-.filter-result fieldset {
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .hotel-more,
@@ -1256,18 +1258,6 @@ input[type="radio"].visually-hidden {
 
 .rating-star img {
   margin-left: 2px;
-}
-
-.sorting {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .hotel-catalog {
