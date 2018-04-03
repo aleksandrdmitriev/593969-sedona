@@ -461,9 +461,29 @@ input[type="radio"].visually-hidden {
   position: relative;
 }
 
+.map-google iframe {
+  border: none;
+  margin-bottom: -126px;
+}
+
 .map-img {
+  display: none;
   margin-bottom: -125px;
 }
+
+/* .map-img p {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin: 0;
+} */
+
+/* .map-img iframe {
+  position: absolute;
+  z-index: 2;
+  border: none;
+} */
 
 @keyframes bounce {
   0% {
