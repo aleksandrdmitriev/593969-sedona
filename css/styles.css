@@ -465,6 +465,8 @@ input[type="radio"].visually-hidden {
   position: relative;
 }
 
+
+
 .map-google iframe {
   border: none;
   margin-bottom: -126px;
@@ -508,13 +510,13 @@ input[type="radio"].visually-hidden {
 }
 
 .modal {
+  display: block;
   position: absolute;
   color: #000000;
   background-color: #ffffff;
 }
-.modal-show {
+.modal-hide {
   display: none;
-
 }
 
 .modal-find {
