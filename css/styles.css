@@ -197,6 +197,7 @@ input[type="radio"].visually-hidden {
 .result-found {
   display: inline-block;
   vertical-align: middle;
+  max-width: 117px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
