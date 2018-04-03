@@ -1088,13 +1088,13 @@ input[type="radio"].visually-hidden {
 .hotel-more,
 .booking-button {
   padding: 3px 16px;
+  margin: 0px 7px 0px 0px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
 }
 .hotel-more {
   background-color: #81b3d2;
-  margin: 0px 7px 0px 0px;
 }
 
 .main-footer {
