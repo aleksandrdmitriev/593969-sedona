@@ -54,6 +54,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-navigation {
+  min-height: 56px;
   position: relative;
   font-size: 14px;
   line-height: 26px;
@@ -74,14 +75,19 @@ input[type="radio"].visually-hidden {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 56px;
+  min-height: 56px;
   list-style: none;
   background-color: #ffffff;
+}
+
+.site-navigation li {
+  max-width: 200px;
 }
 
 .site-navigation li:nth-child(2) {
   margin-right: auto;
   margin-left: 150px;
+  ma
 }
 
 .site-navigation li:nth-child(3) {
