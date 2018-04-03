@@ -1248,7 +1248,7 @@ input[type="radio"].visually-hidden {
 }
 
 .hotel-description-text {
-  height: 90px;
+  min-height: 90px;
   width: 360px;
   display: -webkit-box;
   display: -ms-flexbox;
