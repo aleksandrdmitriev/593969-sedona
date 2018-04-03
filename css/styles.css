@@ -161,7 +161,7 @@ input[type="radio"].visually-hidden {
 
 .main-description p {
   margin: 0;
-  padding: 50px 0px 11px 50px;
+  padding: 0px 50px 11px 50px;
 }
 
 .main-description {
